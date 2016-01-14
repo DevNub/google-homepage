@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Google</title>
+	<link href="googlehome.css" rel="style-sheet" type="text/css">
+	<link href="favicon.png" rel="shortcut icon">
+	<style type="text/css">
+		* { margin: 0; padding: 0; }
+		html
+		{
+			font-size:small;
+			height:100%;
+		}
+		header
+		{
+			padding-top:3px;
+			min-width:980px;
+		}
+		body
+		{
+			font-size:small;
+			/*height:100%;*/
+			display:block;
+			margin-top:15px;
+		}
+
+		body, td, a, p .h
+		{
+			font-family: arial,sans-serif;
+		}
+		#logo
+		{	
+			/*margin-top:9%;
+			padding-bottom:6%;
+			width:100%;
+			min-width:980px;*/
+			margin:150px 10% 1% 12%;
+			display:block;
+			background:url(\google_logo.png) no-repeat;
+			height:92px;
+			width:272px;
+		}
+		footer.legs
+		{
+			display:block;
+			min-width:978px;
+			width:100%;
+			height: 30px;
+			top:95%;
+			bottom:0;
+			margin-bottom:1px;
+			padding-bottom:0px;
+			padding-top:15px;
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+			background:#f4f4f4;
+			position:absolute;
+		}
+		form
+		{
+			margin:40px 10% 3% 12%;
+			/*top:40px;*/
+			/*margin-left:20%;*/
+			/*left:25%;*/
+			/*min-width:980px;
+			width:100%;*/
+		}
+		ul.left
+		{
+			text-align: left;
+		}
+		ul.right
+		{
+			text-align: right;
+			margin-top:-15px;
+		}
+		a.top:hover
+		{
+			text-decoration:underline;
+		}
+		a.bottom:hover
+		{
+			text-decoration:underline;
+		}
+		a.special2:hover
+		{
+			cursor:default;
+			text-decoration:none;
+		}
+		a.special2
+		{
+			boder:1px solid #4285f4;
+			font-weight:bold;
+			background:#4285f4;
+			text-decoration:none;
+			color:#fff;
+			display:inline-block;
+			line-height:28px;
+			margin-right:27px;
+			margin-left:13px;
+			padding:0 12px;
+			border-radius:2px;
+		}
+		input.textarea:hover
+		{
+			height:39px;
+			width:500px;
+			border-width:1px;
+			border-style:solid;
+			border-color:#bbb;
+			padding-left:8px;
+			margin-top:-10px;
+		}
+		
+		input.textarea
+		{
+			
+			/*margin-left:20%;*/
+			height:39px;
+			width:500px;
+			border-width:1px;
+			border-style:solid;
+			border-color:#ddf;
+			padding-left:8px;
+			margin-top:-10px;
+			background:url(voice.png) 99% no-repeat;
+			background-size:24px 24px;
+			vertical-align:middle;
+		}
+		input.textarea:left-click
+		{
+			height:39px;
+			width:500px;
+			border-width:1px;
+			border-style:solid;
+			border-color:#000;
+			padding-left:8px;
+			margin-top:-10px;
+		}
+		input.speciala:hover
+		{
+			border:#2px solid #99e;
+			border-radius:2px;
+			background:#f8f8f8;
+			border-color:#bbb;
+			text-decoration:none;
+			color:#444;
+			border-radius:2px;
+			display:inline-block;
+			line-height:28px;
+			padding:0 12px;
+		}
+		input.specialb:hover
+		{
+			border:#2px solid #99e;
+			border-radius:2px;
+			background:#f8f8f8;
+			border-color:#bbb;
+			text-decoration:none;
+			color:#444;
+			border-radius:2px;
+			display:inline-block;
+			line-height:28px;
+			padding:0 12px;
+		}
+		input.speciala
+		{
+			border:1px solid #eee;
+			height:35px;
+			font-weight:bold;
+			background:#f4f4f4;
+			text-decoration:none;
+			display:inline-block;
+			line-height:28px;
+			padding:0 12px;
+			color:#777;
+			border-radius:2px;
+			margin-left:0%;
+		}
+		input.specialb
+		{
+			border:1px solid #eee;
+			height:35px;
+			font-weight:bold;
+			background:#f4f4f4;
+			text-decoration:none;
+			display:inline-block;
+			line-height:28px;
+			padding:0 12px;
+			color:#777;
+			border-radius:2px;
+			margin-left:5px;
+		}
+		a.top
+		{
+			padding-left:6px;
+			padding-right:6px;
+			text-decoration: none;
+			color:#222;
+			opacity:.75;
+		}
+		a.bottom
+		{
+			text-decoration: none;
+			color:gray;
+			margin-left:15px;
+			margin-right:15px;
+			position: relative;
+		}
+		div.4
+		{
+			display:block;
+			margin-top:9%;
+			margin-left:30%;
+			/*width:100%
+			min-width:980px;*/
+			display:block;
+			position:relative;
+		}
+		div.2p1
+		{
+			padding-top:189px;
+			margin-top:189px;
+		}
+		div.3
+		{
+			/*margin:7% 10% 0% -10%;*/
+			/*max-width: 900px;
+    		width:70%;*/
+			background:url(voice.png) no-repeat;
+			width:24px;
+			height:24px;
+			vertical-align:middle;
+		}
+		div.2p2
+		{
+			margin-left:30%;
+			min-width:980px;
+			width:100%;
+			height: 50px;
+		}
+		div.2{
+			padding:30%;
+			display:block;
+			width:272px
+			height:92px;
+		}
+		div.1
+		{
+			padding:30%;
+			display:block;
+		}
+		div
+		{
+			display:block;
+		}
+
+		/*Google Apps Button*/
+
+		.apps{
+    		padding-left: 0;
+    		color: #000;
+    		cursor: default;
+    		text-decoration: none;
+		}
+		.apps:hover {
+			opacity:.90;
+
+		}
+		.apps {
+    		background-position: -142px -36px;
+    		opacity: .55;
+		}
+
+		.apps {
+    		background-image: url(googleapps.png);
+		}
+
+		.apps {
+    		display: inline-block;
+    		outline: none;
+    		vertical-align: middle;
+    		-webkit-border-radius: 2px;
+    		border-radius: 2px;
+    		-webkit-box-sizing: border-box;
+    		box-sizing: border-box;
+    		height: 30px;
+    		width: 30px;
+    		color: #000;
+    		cursor: default;
+		    text-decoration: none;
+
+		}
+
+
+	</style>
+	<script>
+		function DisplaySearch(textField)
+		{	
+			document.getElementById('mysearch').innerHTML = document.getElementById(textField).value
+			alert(document.getElementById(textField).value)
+		}
+
+		function Surprise(form)
+		{
+			var text = "";
+			var str = form.GoogleSearch.value;
+			for (i = 0; i <= str.length; i++)
+			text = str.substring(i, i+1) + text;
+			form.GoogleSearch.value = text;
+		}
+	</script>
+	</head>
+
+	<body>
+	<div id="main" class="main">
+	<header id="" class="">
+		<div id="1" class="1" align="right">
+		<ul>
+			<a class="top" href="https://mail.google.com/mail/?tab=wm">Gmail</a>
+			<a class="top" href="https://www.google.com/imghp?hl=en&tab=wi&ei=xa-CVqvUOceRmQG05arACw&ved=0EKouCBAoAQ">Images</a>
+			<a class="apps" href="https://www.google.com.jm/intl/en/options/" title="Google apps" aria-expanded="false" tabindex="0" data-ved="0EL0nCBE"></a>
+			<a class="special2" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/%3Fgfe_rd%3Dcr%26ei%3Dxa-CVp3lL7PI8AfD3KGADw">Sign in</a>
+		</ul>
+		</div>
+
+	</header>
+	  <div id="2p1" class="2p1">
+		<center>
+		<div id="logo" class="2" style="background-size:272px 92px; height:92px;width:272px" align="center">
+		</center>
+		</div>
+		<div id="2p2" class="2p2">
+		<form>
+		<center>
+			<div id="searchform" class="3">
+				<input type="text" size="40" maxlength="9999" name="GoogleSearch" id="mysearch" class="textarea">
+				<br/><br/>
+			</div>
+				<br/>
+			<div id="sbuttons" class="4">
+				<input type="button" class="speciala" value="Google Search" onClick="DisplaySearch('mysearch')" class="speciala">
+				<input type="button" class="specialb" value="I'm Feeling Lucky" onClick="Surprise(this.form)" class="specialb">
+			</div>	
+		</center>
+		</form>
+		</div>
+	  </div>	
+		<div id="mysearch"></div>
+	
+	<footer id="footer" class="legs">
+	<div id="2" class="2" align="left">
+		<ul id="footer" class="left">
+			<a class="bottom" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+			<a class="bottom" href="https://www.google.com/services/?fg=1">Business</a>
+			<a class="bottom" href="https://www.google.com/intl/en/about.html?fg=1">About</a>
+			</ul><ul class="right">
+			<a class="bottom" href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+			<a class="bottom" href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+			<a class="bottom" href="https://www.google.com/intl/en/preferences?hl=en">Settings</a>
+			<a class="bottom" href="https://www.google.com/?gfe_rd=cr&ei=pRONVsO3MbSw8weRtqHYBw&gws_rd=cr&fg=1">Use Google.com</a>	
+		</ul>
+	</div>
+	</footer>
+	</div>
+	</body>
+	
+
+
+</html>
